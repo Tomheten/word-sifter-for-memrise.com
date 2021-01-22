@@ -5,6 +5,6 @@ requirements:
 a version of Nodejs >= 14
 
 build:
-run 'npm i' in a root directory
-run 'npm run buildProd' in a root directory
+run 'npm i' in a root directory, 
+run 'npm run buildProd' in a root directory, 
 You need to take a script from 'dist' directory
