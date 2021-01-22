@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "./js/",
+    "noImplicitAny": true,
+    "module": "ES6",
+    "target": "ES6",
+    "sourceMap": true,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "types": [
+    "@types/node"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
